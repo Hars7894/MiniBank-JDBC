@@ -140,10 +140,10 @@ public class MiniBank {
 
 
     public static void main(String[] args) {
-        //rewrite connection according your database.
-        String url = "??";
-        String user = "??";
-        String password = "??";
+        /* Rewrite the  connection accounting ,use two table 1 employee ,2 user*/
+        String url = "?";
+        String user = "?";
+        String password = "?";
 
         try {
             Connection con = DriverManager.getConnection(url, user, password);
